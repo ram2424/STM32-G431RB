@@ -3,11 +3,15 @@ Features
 
 Cooperative Multitasking: 
 Tasks voluntarily yield control to maintain system responsiveness
+
 Three Priority-Based Tasks: LED control, button handling, and idle processing
 10ms System Tick: Precise timing using SysTick timer at 100Hz
+
 Round-Robin Scheduling: Fair task execution with voluntary yield points
+
 Interrupt-Driven Button Response: Immediate handling of user input via GPIO EXTI
 Task Delay Mechanism: Non-blocking delays with automatic task wake-up
+
 Scheduler Statistics: Performance monitoring and task switching metrics
 
 Architecture
