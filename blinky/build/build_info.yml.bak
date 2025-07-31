@@ -1,0 +1,5 @@
+west:
+  command: C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts\west build
+    -b nucleo_g431rb
+  topdir: D:\Zephyr
+  version: 1.3.0

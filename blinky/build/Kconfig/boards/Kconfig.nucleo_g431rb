@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "D:/Zephyr/zephyr/boards/st/nucleo_g431rb/Kconfig.nucleo_g431rb"

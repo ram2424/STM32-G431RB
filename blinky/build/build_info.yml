@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: 'D:/Ram/STM32G431RB/Zephyr/blinky'
+    source-dir: 'D:/Ram/STM32G431RB/Zephyr/blinky'
+  board:
+    name: 'nucleo_g431rb'
+    path:
+     - 'D:/Zephyr/zephyr/boards/st/nucleo_g431rb'
+    qualifiers: 'stm32g431xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'D:/Zephyr/zephyr/dts/bindings'
+    files:
+     - 'D:/Zephyr/zephyr/boards/st/nucleo_g431rb/nucleo_g431rb.dts'
+    include-dirs:
+     - 'D:/Zephyr/modules/hal/ambiq/dts'
+     - 'D:/Zephyr/modules/hal/atmel/include'
+     - 'D:/Zephyr/modules/hal/bouffalolab/include'
+     - 'D:/Zephyr/modules/hal/bouffalolab/include/zephyr'
+     - 'D:/Zephyr/modules/hal/gigadevice/include'
+     - 'D:/Zephyr/modules/hal/microchip/include'
+     - 'D:/Zephyr/modules/hal/microchip/dts'
+     - 'D:/Zephyr/modules/hal/nuvoton/dts'
+     - 'D:/Zephyr/modules/hal/nxp/dts'
+     - 'D:/Zephyr/modules/hal/stm32/dts'
+     - 'D:/Zephyr/modules/hal/ti/dts'
+     - 'D:/Zephyr/zephyr/include'
+     - 'D:/Zephyr/zephyr/include/zephyr'
+     - 'D:/Zephyr/zephyr/dts/common'
+     - 'D:/Zephyr/zephyr/dts/vendor'
+     - 'D:/Zephyr/zephyr/dts/rx'
+     - 'D:/Zephyr/zephyr/dts/x86'
+     - 'D:/Zephyr/zephyr/dts/xtensa'
+     - 'D:/Zephyr/zephyr/dts/sparc'
+     - 'D:/Zephyr/zephyr/dts/riscv'
+     - 'D:/Zephyr/zephyr/dts/posix'
+     - 'D:/Zephyr/zephyr/dts/arm64'
+     - 'D:/Zephyr/zephyr/dts/arm'
+     - 'D:/Zephyr/zephyr/dts/arc'
+     - 'D:/Zephyr/zephyr/dts'
+  kconfig:
+    files:
+     - 'D:/Zephyr/zephyr/boards/st/nucleo_g431rb/nucleo_g431rb_defconfig'
+     - 'D:/Ram/STM32G431RB/Zephyr/blinky/prj.conf'
+    user-files:
+     - 'D:/Ram/STM32G431RB/Zephyr/blinky/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'D:/Zephyr_SDK'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: 'D:/Zephyr/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts\west build -b nucleo_g431rb'
+  topdir: 'D:\Zephyr'
+  version: '1.3.0'

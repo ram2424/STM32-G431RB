@@ -1,0 +1,1767 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      The target system is: Generic - 4.1.99 - arm
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.exe: d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x34): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/3.31.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.exe: d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x34): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Zephyr_SDK/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/3.31.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1237 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-zephyr-eabi-gcc.exe (Zephyr SDK 0.17.1) 12.2.0
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:145 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-qn40or"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-qn40or"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-qn40or'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_55465
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -o CMakeFiles/cmTC_55465.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-qn40or/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_55465.dir/src.c.obj -o cmTC_55465   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:36 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-rwge1o"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-rwge1o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wall_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-rwge1o'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_9e7fd
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wall_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wall -o CMakeFiles/cmTC_9e7fd.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-rwge1o/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_9e7fd.dir/src.c.obj -o cmTC_9e7fd   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:36 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vmsgky"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vmsgky"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vmsgky'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_dee10
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wformat -Wformat-security -o CMakeFiles/cmTC_dee10.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vmsgky/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_dee10.dir/src.c.obj -o cmTC_dee10   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:36 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-0nli73"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-0nli73"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-0nli73'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_33e0c
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wformat -Wformat-zero-length -o CMakeFiles/cmTC_33e0c.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-0nli73/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_33e0c.dir/src.c.obj -o cmTC_33e0c   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:43 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-5zz4tv"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-5zz4tv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-5zz4tv'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_6b857
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wdouble-promotion -o CMakeFiles/cmTC_6b857.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-5zz4tv/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_6b857.dir/src.c.obj -o cmTC_6b857   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:45 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-4znbir"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-4znbir"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpointer_sign_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-4znbir'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a7b50
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wpointer_sign_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wpointer-sign -o CMakeFiles/cmTC_a7b50.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-4znbir/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_a7b50.dir/src.c.obj -o cmTC_a7b50   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:48 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-wgar13"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-wgar13"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpointer_arith_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-wgar13'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_ba9d0
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wpointer_arith_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wpointer-arith -o CMakeFiles/cmTC_ba9d0.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-wgar13/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_ba9d0.dir/src.c.obj -o cmTC_ba9d0   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:51 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-8j95uw"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-8j95uw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-8j95uw'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_0b5d3
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wexpansion-to-defined -o CMakeFiles/cmTC_0b5d3.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-8j95uw/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_0b5d3.dir/src.c.obj -o cmTC_0b5d3   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:61 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ixciis"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ixciis"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wlogical_op_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ixciis'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_6193d
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wlogical_op_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wlogical-op -o CMakeFiles/cmTC_6193d.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ixciis/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_6193d.dir/src.c.obj -o cmTC_6193d   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:61 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-k14a6z"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-k14a6z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-k14a6z'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4998d
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wmissing-field-initializers -o CMakeFiles/cmTC_4998d.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-k14a6z/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_4998d.dir/src.c.obj -o cmTC_4998d   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:77 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-6ynkmf"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-6ynkmf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-6ynkmf'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_c37dd
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wpacked-bitfield-compat -o CMakeFiles/cmTC_c37dd.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-6ynkmf/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_c37dd.dir/src.c.obj -o cmTC_c37dd   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:77 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-qvkuv2"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-qvkuv2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wvla_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-qvkuv2'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_2e10a
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wvla_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wvla -o CMakeFiles/cmTC_2e10a.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-qvkuv2/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_2e10a.dir/src.c.obj -o cmTC_2e10a   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:96 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-t42099"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-t42099"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-t42099'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_3419a
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wunused-but-set-variable -o CMakeFiles/cmTC_3419a.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-t42099/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_3419a.dir/src.c.obj -o cmTC_3419a   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:98 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-lz5cdv"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-lz5cdv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-lz5cdv'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_99756
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Werror=implicit-int -o CMakeFiles/cmTC_99756.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-lz5cdv/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_99756.dir/src.c.obj -o cmTC_99756   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:126 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-wejgtj"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-wejgtj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_printf_return_value_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-wejgtj'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_3bf7a
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_printf_return_value_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-printf-return-value -o CMakeFiles/cmTC_3bf7a.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-wejgtj/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_3bf7a.dir/src.c.obj -o cmTC_3bf7a   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:184 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-31czys"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-31czys"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-31czys'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_61891
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -mstack-protector-guard=global -o CMakeFiles/cmTC_61891.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-31czys/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_61891.dir/src.c.obj -o cmTC_61891   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:201 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-za6so8"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-za6so8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fsanitize_undefined_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-za6so8'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_35300
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fsanitize_undefined_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fsanitize=undefined -o CMakeFiles/cmTC_35300.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-za6so8/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_35300.dir/src.c.obj -o cmTC_35300   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:202 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-97bs4h"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-97bs4h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fsanitize_undefined_trap_on_error_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-97bs4h'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_ffb56
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fsanitize_undefined_trap_on_error_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fsanitize-undefined-trap-on-error -o CMakeFiles/cmTC_ffb56.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-97bs4h/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_ffb56.dir/src.c.obj -o cmTC_ffb56   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:206 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-2lx590"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-2lx590"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_freestanding_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-2lx590'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7bdc5
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_freestanding_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-freestanding -o CMakeFiles/cmTC_7bdc5.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-2lx590/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_7bdc5.dir/src.c.obj -o cmTC_7bdc5   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:209 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-otmz0m"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-otmz0m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ffreestanding_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-otmz0m'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_9ba37
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_ffreestanding_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -ffreestanding -o CMakeFiles/cmTC_9ba37.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-otmz0m/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_9ba37.dir/src.c.obj -o cmTC_9ba37   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:225 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-20cx4k"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-20cx4k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_gdwarf_4_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-20cx4k'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_6e6df
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_gdwarf_4_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -gdwarf-4 -o CMakeFiles/cmTC_6e6df.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-20cx4k/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_6e6df.dir/src.c.obj -o cmTC_6e6df   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/compiler/gcc/compiler_flags.cmake:244 (check_set_compiler_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-nclk0z"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-nclk0z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-nclk0z'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7e672
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fdiagnostics-color=always -o CMakeFiles/cmTC_7e672.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-nclk0z/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_7e672.dir/src.c.obj -o cmTC_7e672   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:5 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-kco1os"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-kco1os"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-kco1os'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e757b
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--gc-sections -o CMakeFiles/cmTC_e757b.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-kco1os/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--gc-sections  CMakeFiles/cmTC_e757b.dir/src.c.obj -o cmTC_e757b   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:5 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vphd7m"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vphd7m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vphd7m'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_5beae
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--build-id=none -o CMakeFiles/cmTC_5beae.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vphd7m/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--build-id=none  CMakeFiles/cmTC_5beae.dir/src.c.obj -o cmTC_5beae   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:10 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-jrdf99"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-jrdf99"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-jrdf99'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1de56
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -nostdlib -o CMakeFiles/cmTC_1de56.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-jrdf99/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -nostdlib  CMakeFiles/cmTC_1de56.dir/src.c.obj -o cmTC_1de56   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:10 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-xbssww"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-xbssww"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-xbssww'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_2370b
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -static -o CMakeFiles/cmTC_2370b.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-xbssww/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -static  CMakeFiles/cmTC_2370b.dir/src.c.obj -o cmTC_2370b   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:10 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vggfzg"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vggfzg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vggfzg'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_cedc2
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,-X -o CMakeFiles/cmTC_cedc2.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-vggfzg/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,-X  CMakeFiles/cmTC_cedc2.dir/src.c.obj -o cmTC_cedc2   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:10 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-9a9fav"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-9a9fav"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-9a9fav'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_fc4b0
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,-N -o CMakeFiles/cmTC_fc4b0.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-9a9fav/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,-N  CMakeFiles/cmTC_fc4b0.dir/src.c.obj -o cmTC_fc4b0   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:17 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-6hs72i"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-6hs72i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-6hs72i'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_b063d
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--orphan-handling=warn -o CMakeFiles/cmTC_b063d.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-6hs72i/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--orphan-handling=warn  CMakeFiles/cmTC_b063d.dir/src.c.obj -o cmTC_b063d   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:21 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ybghts"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ybghts"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_error"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ybghts'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_2923e
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_error  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--orphan-handling=error -o CMakeFiles/cmTC_2923e.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ybghts/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--orphan-handling=error  CMakeFiles/cmTC_2923e.dir/src.c.obj -o cmTC_2923e   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:25 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-evuiot"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-evuiot"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-evuiot'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_06476
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--print-memory-usage -o CMakeFiles/cmTC_06476.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-evuiot/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--print-memory-usage  CMakeFiles/cmTC_06476.dir/src.c.obj -o cmTC_06476   && cd ."
+        Memory region         Used Size  Region Size  %age Used\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:27 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-e2em47"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-e2em47"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-e2em47'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_04e39
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -fsanitize=undefined -o CMakeFiles/cmTC_04e39.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-e2em47/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -fsanitize=undefined  CMakeFiles/cmTC_04e39.dir/src.c.obj -o cmTC_04e39   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:28 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-v3a9z1"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-v3a9z1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined_trap_on_error"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-v3a9z1'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_3c3a2
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined_trap_on_error  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -fsanitize-undefined-trap-on-error -o CMakeFiles/cmTC_3c3a2.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-v3a9z1/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -fsanitize-undefined-trap-on-error  CMakeFiles/cmTC_3c3a2.dir/src.c.obj -o cmTC_3c3a2   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:45 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-0kzhqg"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-0kzhqg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-0kzhqg'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_55a28
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--no-relax -o CMakeFiles/cmTC_55a28.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-0kzhqg/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--no-relax  CMakeFiles/cmTC_55a28.dir/src.c.obj -o cmTC_55a28   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:47 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-tgnnpq"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-tgnnpq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-tgnnpq'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_2e570
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--sort-common=descending -o CMakeFiles/cmTC_2e570.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-tgnnpq/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--sort-common=descending  CMakeFiles/cmTC_2e570.dir/src.c.obj -o cmTC_2e570   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:47 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-thfh9n"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-thfh9n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-thfh9n'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_245e9
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--sort-section=alignment -o CMakeFiles/cmTC_245e9.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-thfh9n/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--sort-section=alignment  CMakeFiles/cmTC_245e9.dir/src.c.obj -o cmTC_245e9   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/gcc/linker_flags.cmake:10 (check_set_linker_property)"
+      - "D:/Zephyr/zephyr/cmake/linker/ld/linker_flags.cmake:57 (include)"
+      - "D:/Zephyr/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/kernel.cmake:153 (include)"
+      - "D:/Zephyr/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "D:/Zephyr/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ab75pw"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ab75pw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ab75pw'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_df5ea
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -pg -o CMakeFiles/cmTC_df5ea.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-ab75pw/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -pg  CMakeFiles/cmTC_df5ea.dir/src.c.obj -o cmTC_df5ea   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2393 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:164 (target_ld_options)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:403 (zephyr_ld_options)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-2i2yy8"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-2i2yy8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__mcpu_cortex_m4__mthumb__mabi_aapcs__mfp16_format_ieee__mtp_soft__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-2i2yy8'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_9ae0a
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__mcpu_cortex_m4__mthumb__mabi_aapcs__mfp16_format_ieee__mtp_soft__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -mcpu=cortex-m4 -mthumb -mabi=aapcs -mfp16-format=ieee -mtp=soft -fuse-ld=bfd -o CMakeFiles/cmTC_9ae0a.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-2i2yy8/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -mcpu=cortex-m4 -mthumb -mabi=aapcs -mfp16-format=ieee -mtp=soft -fuse-ld=bfd  CMakeFiles/cmTC_9ae0a.dir/src.c.obj -o cmTC_9ae0a   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:504 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-goedcy"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-goedcy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-goedcy'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_001b7
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-asynchronous-unwind-tables -o CMakeFiles/cmTC_001b7.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-goedcy/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_001b7.dir/src.c.obj -o cmTC_001b7   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:512 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-gvmuom"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-gvmuom"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-gvmuom'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1b6cc
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -ftls-model=local-exec -o CMakeFiles/cmTC_1b6cc.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-gvmuom/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_1b6cc.dir/src.c.obj -o cmTC_1b6cc   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:532 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-9sl3fo"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-9sl3fo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-9sl3fo'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_42946
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-reorder-functions -o CMakeFiles/cmTC_42946.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-9sl3fo/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_42946.dir/src.c.obj -o cmTC_42946   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:539 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-rv05m9"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-rv05m9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-rv05m9'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e346f
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   --param=min-pagesize=0 -o CMakeFiles/cmTC_e346f.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-rv05m9/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_e346f.dir/src.c.obj -o cmTC_e346f   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:542 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-b611gz"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-b611gz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_defer_pop_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-b611gz'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7f49d
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_defer_pop_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-defer-pop -o CMakeFiles/cmTC_7f49d.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-b611gz/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_7f49d.dir/src.c.obj -o cmTC_7f49d   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:561 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-elxcef"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-elxcef"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_D__Ram_STM32G431RB_Zephyr_blinky_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-elxcef'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_34ec3
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fmacro_prefix_map_D__Ram_STM32G431RB_Zephyr_blinky_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=D:/Ram/STM32G431RB/Zephyr/blinky=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_34ec3.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-elxcef/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_34ec3.dir/src.c.obj -o cmTC_34ec3   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:562 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-84xnmz"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-84xnmz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_D__Zephyr_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-84xnmz'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_92ed3
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fmacro_prefix_map_D__Zephyr_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=D:/Zephyr/zephyr=ZEPHYR_BASE -o CMakeFiles/cmTC_92ed3.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-84xnmz/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_92ed3.dir/src.c.obj -o cmTC_92ed3   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/CMakeLists.txt:564 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-o1b1v4"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-o1b1v4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_D__Zephyr_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-o1b1v4'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_cc844
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fmacro_prefix_map_D__Zephyr_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=D:/Zephyr=WEST_TOPDIR -o CMakeFiles/cmTC_cc844.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-o1b1v4/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_cc844.dir/src.c.obj -o cmTC_cc844   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/arch/common/CMakeLists.txt:40 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-pdlvek"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-pdlvek"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ffunction_sections_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-pdlvek'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_41fe2
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_ffunction_sections_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -ffunction-sections -o CMakeFiles/cmTC_41fe2.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-pdlvek/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_41fe2.dir/src.c.obj -o cmTC_41fe2   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "D:/Zephyr/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "D:/Zephyr/zephyr/arch/common/CMakeLists.txt:40 (zephyr_cc_option)"
+    directories:
+      source: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-n253of"
+      binary: "D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-n253of"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Zephyr/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fdata_sections_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-n253of'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d0508
+        [1/2] D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fdata_sections_C__nostartfiles__nostdlib__isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__d__zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fdata-sections -o CMakeFiles/cmTC_d0508.dir/src.c.obj -c D:/Ram/STM32G431RB/Zephyr/blinky/build/CMakeFiles/CMakeScratch/TryCompile-n253of/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Zephyr_SDK\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "d:/zephyr_sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_d0508.dir/src.c.obj -o cmTC_d0508   && cd ."
+        
+      exitCode: 0
+...
